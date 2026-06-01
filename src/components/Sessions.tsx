@@ -98,17 +98,19 @@ export default function Sessions() {
             />
           </div>
 
-          <button
-            type="submit"
-            className="mt-7 inline-flex items-center gap-2 bg-brand hover:bg-[#d4541c] text-white font-semibold text-base rounded-full px-7 py-3.5 transition-all hover:scale-[1.03] shadow-[0_10px_30px_-10px_rgba(232,101,42,0.5)]"
-          >
-            Submit Session Request
-            <ArrowRight className="w-5 h-5" />
-          </button>
-          <p className="text-xs text-muted mt-4 inline-flex items-center gap-1.5">
-            <Lock className="w-3.5 h-3.5 text-muted" strokeWidth={1.8} />
-            Your information is secure. Sessions are subsidised for schools and NGOs.
-          </p>
+          <div className="mt-7 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
+            <button
+              type="submit"
+              className="inline-flex items-center gap-2 bg-brand hover:bg-[#d4541c] text-white font-semibold text-base rounded-full px-7 py-3.5 transition-all hover:scale-[1.03] shadow-[0_10px_30px_-10px_rgba(232,101,42,0.5)] self-start"
+            >
+              Submit Session Request
+              <ArrowRight className="w-5 h-5" />
+            </button>
+            <p className="text-xs text-muted flex items-start gap-1.5 max-w-sm">
+              <Lock className="w-3.5 h-3.5 text-muted flex-shrink-0 mt-0.5" strokeWidth={1.8} />
+              <span>Your information is secure. Sessions are subsidised for schools and NGOs.</span>
+            </p>
+          </div>
         </motion.form>
       </div>
     </section>
