@@ -238,16 +238,16 @@ export default function Hero() {
                 <span className="w-1.5 h-1.5 rounded-full bg-green-600 animate-pulse" />
                 Powered by ISAC Foundation
               </div>
-              <div className="flex items-center gap-2.5 mt-2">
+              <div className="flex items-center gap-3 mt-3">
                 <img
                   src="/nsd-logo.png"
                   alt="National Security Database (NSD)"
-                  className="h-7 w-auto object-contain"
+                  className="h-12 sm:h-14 w-auto object-contain"
                 />
                 <img
                   src="/isac-logo.png"
                   alt="ISAC Foundation"
-                  className="h-6 w-auto object-contain"
+                  className="h-10 sm:h-12 w-auto object-contain"
                 />
               </div>
             </div>
