@@ -53,7 +53,7 @@ export default function VisionMission() {
                 Empower citizens to navigate the digital age with <span className="italic text-brand-mid">confidence</span>.
               </h3>
               <p className="text-sm text-white/65 mt-4 leading-relaxed">
-                Combining prevention, intervention and protection — through trained First Responders, psychologists, technical and legal professionals — while fostering nationwide awareness and a culture of cyber safety.
+                Combining prevention, intervention and protection — through trained <span className="font-semibold text-white">Self Defenders</span>, First Responders, psychologists, technical and legal professionals — while fostering nationwide awareness and a culture of <span className="font-semibold text-brand-mid">cyber resilience</span>.
               </p>
             </div>
           </motion.div>

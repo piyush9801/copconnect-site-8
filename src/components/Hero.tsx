@@ -123,7 +123,7 @@ export default function Hero() {
               <ShieldCheck className="w-3 h-3 text-brand" strokeWidth={2.2} />
             </span>
             <span className="text-[11px] sm:text-xs font-semibold text-ink-mid">
-              Trusted by Schools · Families · ISAC Foundation
+              Trusted by Schools · Families · Communities
             </span>
           </motion.div>
 
@@ -144,10 +144,19 @@ export default function Hero() {
             <span className="text-brand font-semibold">human connection</span>.
           </motion.p>
 
+          <motion.p
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.7, ease: [0.16, 1, 0.3, 1] }}
+            className="text-sm sm:text-base text-muted leading-relaxed mt-4 max-w-xl"
+          >
+            CopConnect prepares <span className="font-semibold text-ink">Cyber Crime Self Defenders</span>, <span className="font-semibold text-ink">First Responders</span> and <span className="font-semibold text-ink">Intervention Officers</span> through the CCIO Program.
+          </motion.p>
+
           <motion.div
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.75, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="flex flex-wrap gap-3 mt-7"
           >
             <a
@@ -163,7 +172,14 @@ export default function Hero() {
               to="/sessions"
               className="group bg-white hover:bg-cream-dark text-ink font-semibold text-base rounded-full px-6 py-3.5 inline-flex items-center gap-3 border border-border transition-all hover:scale-[1.03]"
             >
-              Book a Safety Session
+              Book a Free Awareness Session
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </Link>
+            <Link
+              to="/sessions"
+              className="group bg-ink hover:bg-ink-mid text-white font-semibold text-base rounded-full px-6 py-3.5 inline-flex items-center gap-3 transition-all hover:scale-[1.03]"
+            >
+              Submit Request
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
@@ -221,6 +237,18 @@ export default function Hero() {
               <div className="text-[11px] text-muted leading-snug flex items-center gap-1.5 mt-0.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-green-600 animate-pulse" />
                 Powered by ISAC Foundation
+              </div>
+              <div className="flex items-center gap-2.5 mt-2">
+                <img
+                  src="/nsd-logo.png"
+                  alt="National Security Database (NSD)"
+                  className="h-7 w-auto object-contain"
+                />
+                <img
+                  src="/isac-logo.png"
+                  alt="ISAC Foundation"
+                  className="h-6 w-auto object-contain"
+                />
               </div>
             </div>
             <IndiaMap className="hidden sm:block w-8 h-11 text-muted/40 flex-shrink-0" />

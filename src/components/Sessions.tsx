@@ -73,7 +73,19 @@ export default function Sessions() {
             <SelectField label="Session Format" options={['In-person', 'Virtual / Online', 'Hybrid']} />
           </div>
 
-          <div className="mt-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5">
+            <SelectField
+              label="Audience Age Group *"
+              options={[
+                'Select age group',
+                'Children (6–12 years)',
+                'Teens (13–18 years)',
+                'Young Adults (18–25 years)',
+                'Adults (25–55 years)',
+                'Seniors (55+ years)',
+                'Mixed / Family',
+              ]}
+            />
             <SelectField
               label="Primary Topic of Interest"
               options={[

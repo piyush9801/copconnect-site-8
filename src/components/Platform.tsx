@@ -29,15 +29,15 @@ const PLATFORM_CARDS = [
   {
     name: 'CopConnect Portal',
     tagline: 'For citizens, victims & CCIOs',
-    body: 'The Scroll Control Platform connects citizens, CCIOs, and law enforcement in real time — making reporting easy, help fast, and safety accessible to all.',
+    body: 'The CopConnect portal connects citizens, victims and CCIOs in real time — ensuring support, safety and quick response when it matters most.',
     href: 'https://portal.copconnect.in',
-    cta: 'Access the Portal',
+    cta: 'Sign up for the Portal',
     accent: 'bg-brand text-white',
   },
   {
     name: 'ScrollControl',
-    tagline: 'For parents & schools',
-    body: 'A parental safety toolkit built into the CCIO Parents package. Monitor screen time, build healthy digital habits at home, and protect children from online threats.',
+    tagline: 'For parents & teachers',
+    body: 'A platform for parents and teachers to build healthy digital habits in children and young adults — preventing and protecting them from online abuse and harm.',
     href: 'https://scrollcontrol.ai/',
     cta: 'Open ScrollControl',
     accent: 'bg-ink text-white',
@@ -118,7 +118,7 @@ export default function Platform() {
           />
         </h2>
         <p className="text-white/65 text-base sm:text-lg leading-relaxed mt-6 max-w-2xl mx-auto">
-          From a national portal that links citizens to law enforcement, to a parental safety toolkit that brings digital safety home.
+          From a national portal that eases cyber crime victim support, to a parental safety toolkit that brings digital safety home.
         </p>
 
         {/* 2 product cards */}
@@ -181,7 +181,7 @@ export default function Platform() {
             rel="noreferrer"
             className="inline-flex items-center gap-2 bg-brand hover:bg-[#d4541c] text-white font-semibold text-base sm:text-lg rounded-full px-7 py-3.5 transition-all hover:scale-[1.03] shadow-[0_10px_30px_-10px_rgba(232,101,42,0.5)]"
           >
-            Launch the Portal
+            Sign up for the Portal
             <ArrowRight className="w-5 h-5" />
           </a>
         </div>
